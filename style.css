@@ -1,0 +1,127 @@
+
+.introContainer{
+    border:solid blue;
+    display:flex;
+    /* height:20vh; */
+    justify-content: space-between;
+}
+.circle{
+    margin-top: .2vh;
+    margin-left: 5vh;
+    height:140px;
+    width:140px;
+    border-radius:100%;
+    transition: wisdth 3s, height 3s, transform, 3s;
+}
+.circle:hover{
+    width: 140px;
+    height: 140px;
+    transform: rotate(360deg);
+}
+.intro{
+    color: khaki;
+    width:60%;
+    /* margin:1em; */
+    flex-wrap: wrap;
+    text-align: justify;
+}
+.infoContainer{
+    border:solid blue;
+    margin:1em;
+    height:80vh;
+    display:flex;
+}
+.dropContainer{
+    border:solid black;
+    margin:1em;
+    border-width:.2px;
+    width:40%;
+}
+.displayContainer{
+    border:solid purple;
+    margin:1em;
+    width:60%;
+}
+.title{
+    border: solid khaki;
+    text-align: center;
+    color: lightseagreen;
+}
+.description{
+    border: solid khaki;
+    text-align: center;
+    padding: 5px;
+    color: aqua;
+}
+.symbolContainer{
+    border:solid khaki;
+    height: 430px;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+.sectionContainer{
+    border:solid khaki;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.toolbar{
+    border:solid khaki;
+    text-align: center;
+    background-color: navy;
+}
+
+.date{
+    text-align: center;
+    margin:1em;
+    font: size 22px;
+}
+.eduPic{
+    float: left;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: cover;
+    width: 50%;
+    }
+.newnew{
+   display: inline-block;
+   height: 200px;
+   width: 50%;
+
+}
+.newnew img{
+    object-fit: cover
+}
+ .eduPic img{
+    object-fit: cover;
+    /* width: ; */
+ }   
+.eduContainer{
+    border: solid khaki;
+    /* margin:1em; */
+}
+.eduContainer:hover{
+    border: solid goldenrod;
+    font: size 23px;
+    transition:3s;
+    margin:1em;
+   
+}
+body{
+    background: black;
+}
+#info{
+    text-align: justify;
+}
+#me{
+    margin-left: 1em;
+}
+table, th, td{
+    border: 1px solid khaki;
+    width: 54vw;
+    justify-content: center;
+    text-align: center;
+}
+
+
